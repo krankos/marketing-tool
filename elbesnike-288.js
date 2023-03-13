@@ -16,6 +16,10 @@ let options = {
       "general_sessions=f6eeadef61608d113fff56d593f2ef9d2794fb4a; langCurrent=ar; ",
   },
   body: encodedParams,
+  proxy:{
+    host: '127.0.0.1:8081',
+    port: 8081,
+  }
 };
 
 fetch(url, options)
